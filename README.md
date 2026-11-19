@@ -6,6 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Concluído%20%2F%20Implantado-success.svg)]()
 
 Repositório oficial contendo a arquitetura de governança, o **Plano de Resposta a Incidentes (PRI)** e os **Playbooks Táticos** desenvolvidos para a **Universidade Federal do Rio Grande do Sul (UFRGS)**, estruturados no âmbito da Residência Tecnológica em Resposta a Incidentes e Forense Digital (Programa Hackers do Bem / RNP / UFRGS).
+
 Observação: O arquivo disponibilizado corresponde à versão técnica/pública do relatório final de residência, enquanto o documento assinado permanece arquivado para fins institucionais.
 
 ---
@@ -14,14 +15,15 @@ Observação: O arquivo disponibilizado corresponde à versão técnica/pública
 
 Este projeto aborda a transição de ecossistemas reativos para estruturas de defesa proativas em instituições de ensino e pesquisa de grande porte. A iniciativa traduz diretrizes de segurança internacional e requisitos legais em um ecossistema operacional documentado, escalável e voltado para a mitigação de riscos críticos na infraestrutura acadêmica.
 
-O trabalho resultou tanto na documentação institucional quanto na produção do artigo científico 
+O trabalho resultou tanto na documentação institucional quanto na produção do artigo científico.
 
 ## 📥 Documentos e Artefatos Disponíveis
 
 Clique nos links abaixo para visualizar ou baixar os documentos técnicos completos deste projeto:
 
-* 📄 **[Relatório Final de Residência Tecnológica (PDF)](./Elzilene%20Montanha%20Machado%20-%20Relatório%20Final.pdf)**
-* 📘 **[Material de Treinamento e Playbooks (PDF)](./Treinamento.pdf)**, utilizado como material de treinamento para UFRGS, contendo todos os dados correspondentes ao playbooks desenvolvidos.
+* 📄 **[Relatório Final de Residência Tecnológica (PDF)](./Relatório%20Final.pdf)**
+* 📘 **[Material de Treinamento e Playbooks (PDF)](./Treinamento.pdf)**, utilizado como material de treinamento para UFRGS, contendo todos os dados correspondentes aos playbooks desenvolvidos.
+* 📊 **[Apresentação do Projeto (PDF)](./Apresentação%20.pdf)** *(Nota: ajuste o nome do arquivo se necessário)*
 
 ---
 
@@ -46,6 +48,46 @@ O repositório disponibiliza módulos operacionais ("instruções de combate") m
 
 ---
 
+## 🛠️ Ferramentas, Checklists e Formulários (Guia de Consulta)
+
+Alguns checklists interativos, formulários de registro de evidências e ferramentas operacionais estão compilados no arquivo **[Material de Treinamento (PDF)](./Treinamento.pdf)**. Abaixo está o índice de navegação rápida por página para cada módulo:
+
+### Módulos Técnicos
+
+* **Comprometimento de Contas**
+  * Checklist Plano de Resposta — Roteiro inicial de triagem para incidentes envolvendo contas de usuário (ex.: e-mails corporativos, VPNs, portais acadêmicos). Ajuda a identificar o escopo do comprometimento antes de ações drásticas. *Página 21*
+  * Tratamento de Incidentes — Guia passo a passo para as ações de contenção, erradicação e recuperação. Inclui procedimentos para revogação global de tokens, bloqueio de contas e ativação de Acesso Condicional. *Página 22*
+  * Formulário de Registro de Evidências — Documento padronizado para registrar logs de autenticação, IPs de origem e artefatos coletados, garantindo a rastreabilidade e a cadeia de custódia. *Página 23*
+  * Módulo Técnico (Teoria e Ações) — Aprofundamento técnico sobre os vetores de ataque (Phishing, Bypass de MFA, Session Hijacking) e as ferramentas de mitigação disponíveis no ecossistema. *Página 38*
+
+* **Comprometimento de Servidores**
+  * Checklist de Resposta a Incidentes — Roteiro focado na superfície de exposição de servidores e portais institucionais, auxiliando na identificação de Web Shells, Cryptojacking e movimentação lateral. *Página 23*
+  * Tratamento de Incidente de Segurança — Procedimentos táticos para isolamento da máquina afetada em VLANs de quarentena, coleta de memória RAM (Live Forensics) e bloqueio de conexões maliciosas. *Página 24*
+  * Formulário de Registro de Evidências — Ficha específica para registrar artefatos de servidores (arquivos maliciosos, chaves de registro, logs de sistema), mantendo o rigor forense. *Página 25*
+  * Comprometimento por Tipos de Ataques — Tabela de referência rápida que cruza o tipo de ataque detectado no servidor com a ação de resposta recomendada. *Página 26*
+  * Módulo Técnico (Teoria e Ações) — Detalhamento das técnicas de invasão a servidores e dos comandos/ferramentas específicos para análise forense e contenção. *Página 60*
+
+* **Vazamento de Informações**
+  * Tratamento de Incidente de Segurança — Fluxo de resposta focado em exfiltração de dados (Slow & Low) e configurações incorretas em nuvem, com integração direta ao DPO e ao Plano de Comunicação de Incidentes. *Página 20*
+  * Comprometimento por Tipos de Ataques — Guia para identificar a origem do vazamento e aplicar as medidas corretivas específicas para cada vetor de exposição de dados. *Página 21*
+  * Módulo Técnico (Teoria e Ações) — Orientações técnicas sobre como conter a exfiltração de dados e o passo a passo para o cumprimento dos prazos e obrigações da LGPD (Art. 48). *Página 87*
+
+* **Ataques DoS/DDoS**
+  * Checklist - Plano de Resposta — Roteiro de ação rápida para quando serviços críticos (como Moodle e SEI) ficam indisponíveis, focado em garantir a continuidade operacional. *Página 26*
+  * Tratamento de Incidentes — Instruções para ativação de Scrubbing Centers, Rate Limiting e inspeção profunda de pacotes (WAF Camada 7) para mitigar o tráfego malicioso. *Página 27*
+  * Registro Tratamento de Incidentes — Formulário para documentar o volume do ataque (ex.: requisições por segundo), a duração e as contramedidas aplicadas na infraestrutura. *Página 28*
+  * Tipos de Ataques DoS/DDoS — Material de apoio que diferencia ataques volumétricos, de protocolo e de camada de aplicação, ajudando o analista a escolher a defesa correta. *Página 29*
+  * Módulo Técnico (Teoria e Ações) — Explicação técnica sobre a arquitetura de rede para absorção de tráfego e as configurações de firewall necessárias para bloquear os ataques. *Página 109*
+
+### Governança e Resposta Global
+* **Plano de Respostas a Incidentes**
+  * Formulário de Registro de Evidências — Formulário mestre de Registro de Evidências, utilizado como documento consolidador para incidentes de alta criticidade que exigem acionamento do CSIRT e da alta gestão. *Página 139*
+
+### 💻 Ferramenta Desenvolvida (Acesso Direto)
+* **[Detector de Ameaças UFRGS (Streamlit)](https://detector-ameacas-ufrgs-jarr7y2ahbycccf7evdll2.streamlit.app/)** — Aplicação web interativa desenvolvida para auxiliar a equipe de TI na triagem automatizada e na detecção rápida de anomalias e artefatos suspeitos na rede, com utilização de chave API do VirusTotal em tempo real.
+
+---
+
 ## 🔄 Pipeline de Triagem & SIEM (Wazuh)
 
 O ecossistema integra a telemetria institucional ao **Wazuh (SIEM)** para filtragem automatizada de ruídos rotineiros e suporte à disponibilidade resiliente do SOC/CSIRT, incluindo repositórios offline de playbooks para cenários de queda severa de rede.
@@ -54,7 +96,7 @@ O ecossistema integra a telemetria institucional ao **Wazuh (SIEM)** para filtra
 
 ## 📁 Estrutura do Repositório
 
-*  docs-                 Documentação completa do PRI em PDF e Markdown
-*  playbooks-            Módulos táticos operacionais (Contas, Servidores, Vazamento, DDoS)
-*  schemas-              Matrizes RACI, fluxogramas e diagramas conceituais (.png / .drawio)
-*  README.md -           Documentação principal do repositório
+* 📄 `Apresentação.pdf` - Slides de apresentação do projeto.
+* 📄 `README.md` - Documentação principal do repositório.
+* 📄 `Relatório Final.pdf` - Documento técnico completo da residência.
+* 📄 `Treinamento.pdf` - Guia prático com Playbooks, Checklists, Formulários e Ferramentas.
