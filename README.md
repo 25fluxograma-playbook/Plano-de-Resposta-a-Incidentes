@@ -13,7 +13,12 @@ Repositório oficial contendo a arquitetura de governança, o **Plano de Respost
 
 Este projeto aborda a transição de ecossistemas reativos para estruturas de defesa proativas em instituições de ensino e pesquisa de grande porte. A iniciativa traduz diretrizes de segurança internacional e requisitos legais em um ecossistema operacional documentado, escalável e voltado para a mitigação de riscos críticos na infraestrutura acadêmica.
 
-O trabalho resultou tanto na documentação institucional quanto na produção do artigo científico [*“Fortalecendo a Resiliência Digital em Instituições de Ensino”*](https://25fluxograma-playbook.github.io), que cruza dados setoriais de cibersegurança (Brasscom, ISH Tecnologia) com a validação prática dos fluxos de resposta.
+O trabalho resultou tanto na documentação institucional quanto na produção do artigo científico ## 📥 Documentos e Artefatos Disponíveis
+
+Clique nos links abaixo para visualizar ou baixar os documentos técnicos completos deste projeto:
+
+* 📄 **[Relatório Final de Residência Tecnológica (PDF)](./Elzilene%20Montanha%20Machado%20-%20Relatório%20Final.pdf)**
+* 📘 **[Material de Treinamento e Playbooks (PDF)](./Treinamento.pdf)**, que cruza dados setoriais de cibersegurança (Brasscom, ISH Tecnologia) com a validação prática dos fluxos de resposta.
 
 ---
 
@@ -46,7 +51,7 @@ O ecossistema integra a telemetria institucional ao **Wazuh (SIEM)** para filtra
 
 ## 📁 Estrutura do Repositório
 
-```text
+
 ├── docs/                 # Documentação completa do PRI em PDF e Markdown
 ├── playbooks/            # Módulos táticos operacionais (Contas, Servidores, Vazamento, DDoS)
 ├── schemas/              # Matrizes RACI, fluxogramas e diagramas conceituais (.png / .drawio)
