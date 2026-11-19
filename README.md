@@ -6,6 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Concluído%20%2F%20Implantado-success.svg)]()
 
 Repositório oficial contendo a arquitetura de governança, o **Plano de Resposta a Incidentes (PRI)** e os **Playbooks Táticos** desenvolvidos para a **Universidade Federal do Rio Grande do Sul (UFRGS)**, estruturados no âmbito da Residência Tecnológica em Resposta a Incidentes e Forense Digital (Programa Hackers do Bem / RNP / UFRGS).
+Observação: O arquivo disponibilizado corresponde à versão técnica/pública do relatório final de residência, enquanto o documento assinado permanece arquivado para fins institucionais.
 
 ---
 
@@ -18,7 +19,7 @@ O trabalho resultou tanto na documentação institucional quanto na produção d
 Clique nos links abaixo para visualizar ou baixar os documentos técnicos completos deste projeto:
 
 * 📄 **[Relatório Final de Residência Tecnológica (PDF)](./Elzilene%20Montanha%20Machado%20-%20Relatório%20Final.pdf)**
-* 📘 **[Material de Treinamento e Playbooks (PDF)](./Treinamento.pdf)**, que cruza dados setoriais de cibersegurança (Brasscom, ISH Tecnologia) com a validação prática dos fluxos de resposta.
+* 📘 **[Material de Treinamento e Playbooks (PDF)](./Treinamento.pdf)**, utilizado como material de treinamento para UFRGS, contendo todos os dados correspondentes ao playbooks desenvolvidos.
 
 ---
 
@@ -51,8 +52,7 @@ O ecossistema integra a telemetria institucional ao **Wazuh (SIEM)** para filtra
 
 ## 📁 Estrutura do Repositório
 
-
-├── docs/                 # Documentação completa do PRI em PDF e Markdown
-├── playbooks/            # Módulos táticos operacionais (Contas, Servidores, Vazamento, DDoS)
-├── schemas/              # Matrizes RACI, fluxogramas e diagramas conceituais (.png / .drawio)
-└── README.md             # Documentação principal do repositório
+── docs/                 Documentação completa do PRI em PDF e Markdown
+── playbooks/            Módulos táticos operacionais (Contas, Servidores, Vazamento, DDoS)
+── schemas/              Matrizes RACI, fluxogramas e diagramas conceituais (.png / .drawio)
+── README.md             Documentação principal do repositório
