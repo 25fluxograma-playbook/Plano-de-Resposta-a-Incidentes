@@ -54,7 +54,7 @@ O ecossistema integra a telemetria institucional ao **Wazuh (SIEM)** para filtra
 
 ## 📁 Estrutura do Repositório
 
-* ** docs-                 Documentação completa do PRI em PDF e Markdown
-* ** playbooks-            Módulos táticos operacionais (Contas, Servidores, Vazamento, DDoS)
-* ** schemas-              Matrizes RACI, fluxogramas e diagramas conceituais (.png / .drawio)
-* ** README.md -            Documentação principal do repositório
+*  docs-                 Documentação completa do PRI em PDF e Markdown
+*  playbooks-            Módulos táticos operacionais (Contas, Servidores, Vazamento, DDoS)
+*  schemas-              Matrizes RACI, fluxogramas e diagramas conceituais (.png / .drawio)
+*  README.md -           Documentação principal do repositório
