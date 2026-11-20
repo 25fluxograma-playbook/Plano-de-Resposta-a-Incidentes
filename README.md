@@ -54,25 +54,25 @@ Alguns checklists interativos, formulários de registro de evidências e ferrame
 
 ### Módulos Técnicos
 
-* **Comprometimento de Contas**
+![Comprometimento de Contas](https://img.shields.io/badge/-Comprometimento%20de%20Contas-5d7784?style=for-the-badge)
   * Checklist Plano de Resposta — Roteiro inicial de triagem para incidentes envolvendo contas de usuário (ex.: e-mails corporativos, VPNs, portais acadêmicos). Ajuda a identificar o escopo do comprometimento antes de ações drásticas. *Página 21*
   * Tratamento de Incidentes — Guia passo a passo para as ações de contenção, erradicação e recuperação. Inclui procedimentos para revogação global de tokens, bloqueio de contas e ativação de Acesso Condicional. *Página 22*
   * Formulário de Registro de Evidências — Documento padronizado para registrar logs de autenticação, IPs de origem e artefatos coletados, garantindo a rastreabilidade e a cadeia de custódia. *Página 23*
   * Módulo Técnico (Teoria e Ações) — Aprofundamento técnico sobre os vetores de ataque (Phishing, Bypass de MFA, Session Hijacking) e as ferramentas de mitigação disponíveis no ecossistema. *Página 38*
 
-* **Comprometimento de Servidores**
+![Comprometimento de Contas](https://img.shields.io/badge/-Comprometimento%20de%20Contas-5d7784?style=for-the-badge)
   * Checklist de Resposta a Incidentes — Roteiro focado na superfície de exposição de servidores e portais institucionais, auxiliando na identificação de Web Shells, Cryptojacking e movimentação lateral. *Página 23*
   * Tratamento de Incidente de Segurança — Procedimentos táticos para isolamento da máquina afetada em VLANs de quarentena, coleta de memória RAM (Live Forensics) e bloqueio de conexões maliciosas. *Página 24*
   * Formulário de Registro de Evidências — Ficha específica para registrar artefatos de servidores (arquivos maliciosos, chaves de registro, logs de sistema), mantendo o rigor forense. *Página 25*
   * Comprometimento por Tipos de Ataques — Tabela de referência rápida que cruza o tipo de ataque detectado no servidor com a ação de resposta recomendada. *Página 26*
   * Módulo Técnico (Teoria e Ações) — Detalhamento das técnicas de invasão a servidores e dos comandos/ferramentas específicos para análise forense e contenção. *Página 60*
 
-* **Vazamento de Informações**
+![Vazamento de Informações](https://img.shields.io/badge/-Vazamento%20de%20Informa%C3%A7%C3%B5es-00364c?style=for-the-badge)
   * Tratamento de Incidente de Segurança — Fluxo de resposta focado em exfiltração de dados (Slow & Low) e configurações incorretas em nuvem, com integração direta ao DPO e ao Plano de Comunicação de Incidentes. *Página 20*
   * Comprometimento por Tipos de Ataques — Guia para identificar a origem do vazamento e aplicar as medidas corretivas específicas para cada vetor de exposição de dados. *Página 21*
   * Módulo Técnico (Teoria e Ações) — Orientações técnicas sobre como conter a exfiltração de dados e o passo a passo para o cumprimento dos prazos e obrigações da LGPD (Art. 48). *Página 87*
 
-* **Ataques DoS/DDoS**
+![Ataques DoS/DDoS](https://img.shields.io/badge/-Ataques%20DoS%2FDDoS-555550?style=for-the-badge)
   * Checklist - Plano de Resposta — Roteiro de ação rápida para quando serviços críticos (como Moodle e SEI) ficam indisponíveis, focado em garantir a continuidade operacional. *Página 26*
   * Tratamento de Incidentes — Instruções para ativação de Scrubbing Centers, Rate Limiting e inspeção profunda de pacotes (WAF Camada 7) para mitigar o tráfego malicioso. *Página 27*
   * Registro Tratamento de Incidentes — Formulário para documentar o volume do ataque (ex.: requisições por segundo), a duração e as contramedidas aplicadas na infraestrutura. *Página 28*
