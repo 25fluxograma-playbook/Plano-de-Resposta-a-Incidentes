@@ -50,7 +50,7 @@ O repositório disponibiliza módulos operacionais ("instruções de combate") m
 
 ## 🛠️ Ferramentas, Checklists e Formulários (Guia de Consulta)
 
-Alguns checklists interativos, formulários de registro de evidências e ferramentas operacionais estão compilados no arquivo **[Material de Treinamento (PDF)](./Treinamento.pdf)**. Abaixo está o índice de navegação rápida por página para cada módulo:
+Alguns checklists interativos, formulários de registro de evidências e ferramentas operacionais estão compilados no arquivo **[Treinamento (pdf)](./Treinamento.pdf)**e também em [Apresentação (pdf)](./Apresentação.pdf). Abaixo está o índice de navegação rápida por página para cada módulo desenvolvido:
 
 ### Módulos Técnicos
 
@@ -84,7 +84,7 @@ Alguns checklists interativos, formulários de registro de evidências e ferrame
   * Formulário de Registro de Evidências — Formulário mestre de Registro de Evidências, utilizado como documento consolidador para incidentes de alta criticidade que exigem acionamento do CSIRT e da alta gestão. *Página 139*
 
 ### 💻 Ferramenta Desenvolvida (Acesso Direto)
-* **[Detector de Ameaças UFRGS (Streamlit)](https://detector-ameacas-ufrgs-jarr7y2ahbycccf7evdll2.streamlit.app/)** — Ferramenta Técnica página 21 presente no arquivo Treinamento.pdf  e funciona como uma aplicação web interativa desenvolvida para auxiliar a equipe de TI na triagem automatizada e na detecção rápida de anomalias e artefatos suspeitos na rede, com utilização de chave API do VirusTotal em tempo real.
+* **[Detector de Ameaças UFRGS (Streamlit)](https://detector-ameacas-ufrgs-jarr7y2ahbycccf7evdll2.streamlit.app/)** — Ferramenta Técnica página 21 presente no arquivo [Treinamento (pdf)](./Treinamento.pdf) e funciona como uma aplicação web interativa desenvolvida para auxiliar a equipe de TI na triagem automatizada e na detecção rápida de anomalias e artefatos suspeitos na rede, com utilização de chave API do VirusTotal em tempo real.
 
 ---
 
