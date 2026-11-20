@@ -37,7 +37,7 @@ A arquitetura do PRI fundamenta-se em três eixos estratégicos para eliminar am
 
 ---
 
-## ⚡ Playbooks Táticos Especializados
+![Playbooks Táticos Especializados](https://img.shields.io/badge/-Playbooks%20Táticos%20Especializados-050A40?style=for-the-badge)
 
 O repositório disponibiliza módulos operacionais ("instruções de combate") mapeados às táticas do **MITRE ATT&CK** e ao ciclo de vida do **NIST SP 800-61r3**:
 
@@ -79,7 +79,7 @@ Alguns checklists interativos, formulários de registro de evidências e ferrame
   * Tipos de Ataques DoS/DDoS — Material de apoio que diferencia ataques volumétricos, de protocolo e de camada de aplicação, ajudando o analista a escolher a defesa correta. *Página 29*
   * Módulo Técnico (Teoria e Ações) — Explicação técnica sobre a arquitetura de rede para absorção de tráfego e as configurações de firewall necessárias para bloquear os ataques. *Página 109*
 
-]![Governança e Resposta Global](https://img.shields.io/badge/-Governança%20e%20Resposta%20Global-050A40?style=for-the-badge)
+![Governança e Resposta Global](https://img.shields.io/badge/-Governança%20e%20Resposta%20Global-050A40?style=for-the-badge)
 * **Plano de Respostas a Incidentes**
   * Formulário de Registro de Evidências — Formulário mestre de Registro de Evidências, utilizado como documento consolidador para incidentes de alta criticidade que exigem acionamento do CSIRT e da alta gestão. *Página 139*
 
