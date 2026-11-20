@@ -1,7 +1,7 @@
 # 🛡️ Plano de Resposta a Incidentes (PRI) & Playbooks Táticos — UFRGS
 
 [![NIST SP 800-61r3](https://img.shields.io/badge/Framework-NIST%20SP%20800--61r3-blue.svg)](https://csrc.nist.gov/publications/detail/sp/800-61/rev-3/final)
-[![MITRE ATT&CK](https://img.shields.io/badge/TTPs-MITRE%20ATT%26CKS-orange.svg)](https://attack.mitre.org/)
+[![MITRE ATT&CK](https://img.shields.io/badge/TTPs-MITRE%20ATT%26CK-orange.svg)](https://attack.mitre.org/)
 [![LGPD Compliance](https://img.shields.io/badge/Conformidade-LGPD%20%2F%20Art.%2048-green.svg)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei13709.htm)
 [![Status](https://img.shields.io/badge/Status-Concluído%20%2F%20Implantado-success.svg)]()
 
@@ -23,7 +23,7 @@ Clique nos links abaixo para visualizar ou baixar os documentos técnicos comple
 
 * 📄 **[Relatório Final de Residência Tecnológica (PDF)](./Relatório%20Final.pdf)**
 * 📘 **[Material de Treinamento e Playbooks (PDF)](./Treinamento.pdf)**, utilizado como material de treinamento para UFRGS, contendo todos os dados correspondentes aos playbooks desenvolvidos.
-* 📊 **[Apresentação do Projeto (PDF)](./Apresentação%20.pdf)** 
+* 📊 **[Apresentação do Projeto (PDF)](./Apresentação%20.pdf)** , material utilizado para apresentação do trabalho realizado durante a residência tecnológica.
 
 ---
 
