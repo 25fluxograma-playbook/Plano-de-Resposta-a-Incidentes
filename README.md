@@ -50,7 +50,7 @@ O repositório disponibiliza módulos operacionais ("instruções de combate") m
 
 ## 🛠️ Ferramentas, Checklists e Formulários (Guia de Consulta)
 
-Alguns checklists interativos, formulários de registro de evidências e ferramentas operacionais estão compilados no arquivo [Treinamento (pdf)](./Treinamento.pdf) e também em [Apresentação (pdf)](./Apresentação.pdf). Abaixo está o índice de navegação rápida por página para cada módulo desenvolvido:
+Alguns checklists interativos, formulários de registro de evidências e ferramentas operacionais estão compilados no arquivo [Treinamento (pdf)](./Treinamento.pdf) e também em [Apresentação (pdf)](./Apresentação%20.pdf). Abaixo está o índice de navegação rápida por página para cada módulo desenvolvido:
 
 ### Módulos Técnicos
 
