@@ -23,7 +23,7 @@ Clique nos links abaixo para visualizar ou baixar os documentos técnicos comple
 
 * 📄 **[Relatório Final de Residência Tecnológica (PDF)](./Relatório%20Final.pdf)**
 * 📘 **[Material de Treinamento e Playbooks (PDF)](./Treinamento.pdf)**, utilizado como material de treinamento para UFRGS, contendo todos os dados correspondentes aos playbooks desenvolvidos.
-* 📊 **[Apresentação do Projeto (PDF)](./Apresentação%20.pdf)** *(Nota: ajuste o nome do arquivo se necessário)*
+* 📊 **[Apresentação do Projeto (PDF)](./Apresentação%20.pdf)** 
 
 ---
 
