@@ -60,7 +60,7 @@ Alguns checklists interativos, formulários de registro de evidências e ferrame
   * Formulário de Registro de Evidências — Documento padronizado para registrar logs de autenticação, IPs de origem e artefatos coletados, garantindo a rastreabilidade e a cadeia de custódia. *Página 23*
   * Módulo Técnico (Teoria e Ações) — Aprofundamento técnico sobre os vetores de ataque (Phishing, Bypass de MFA, Session Hijacking) e as ferramentas de mitigação disponíveis no ecossistema. *Página 38*
 
-![Comprometimento de Contas](https://img.shields.io/badge/-Comprometimento%20de%20Contas-5d7784?style=for-the-badge)
+![Comprometimento de Servidores](https://img.shields.io/badge/-Comprometimento%20de%20Servidores-0d234f?style=for-the-badge)
   * Checklist de Resposta a Incidentes — Roteiro focado na superfície de exposição de servidores e portais institucionais, auxiliando na identificação de Web Shells, Cryptojacking e movimentação lateral. *Página 23*
   * Tratamento de Incidente de Segurança — Procedimentos táticos para isolamento da máquina afetada em VLANs de quarentena, coleta de memória RAM (Live Forensics) e bloqueio de conexões maliciosas. *Página 24*
   * Formulário de Registro de Evidências — Ficha específica para registrar artefatos de servidores (arquivos maliciosos, chaves de registro, logs de sistema), mantendo o rigor forense. *Página 25*
